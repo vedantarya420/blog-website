@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root{
+    --main-bg-color: #2f3c7e;
+    --font1:'Ubuntu',cursive;
+    --font2:'Playfair+Display',cursive;
+
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.maxWidth-1{
+    width: 80vw;
+}
+.maxWidth-2{
+    width: 60vw;
+}
+.maxAuto{
+    margin: auto;
+}
+.btn{
+    padding: 1px 5px;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-family: var(--font1);
+    font-size: 12px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #2d1d1e;
+    background-color: #DDC3A5;
+    transition: all 0.5s ease-in-out;
+}

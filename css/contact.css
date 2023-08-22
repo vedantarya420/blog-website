@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #CADCFC;
+}
+.contact-content{
+    height: 400px;
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+    color: black;
+    font-size: larger;
+    }
+    .contact-content::after{
+        content: "";
+        background-image: url("../img/home.jpg");
+        position: absolute;
+        width: 100%;
+        height: inherit;
+        opacity: 0.06;
+        z-index: 1;
+    }
+    .form-box{
+        padding: 5px 10px;
+        margin: 2px;
+        width: 200px;
+    }
+
+
